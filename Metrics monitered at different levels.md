@@ -10,19 +10,19 @@ After the Incident : Document what happened, learn from it, and prevent it from 
 
 ### **Metrics Monitored:**
 - **Log Data:**
-  - **Error Logs**:
+  - **Error Logs**:(Track all errors, crashes, and exceptions.)
     - Capture all application errors, exceptions, stack traces, and crashes.
     - Categorize errors by type, frequency, and severity.
-  - **Request Logs**:
+  - **Request Logs**:(Monitor HTTP requests, status codes, and response times.)
     - Track HTTP requests, status codes (2xx, 4xx, 5xx), request payloads, and response times.
     - Monitor for slow queries or requests that exceed a threshold.
   - **Business Metrics**:
-    - Monitor key business transactions (e.g., purchase completions, login attempts). 
-    - Track custom metrics like the number of items added to the cart, conversions, or failed transactions. which is nothing but User activity logs and access patterns.
-  - **Performance Logs**:
+    - Monitor important business transactions (e.g., purchase completions, login attempts). 
+    - Track custom metrics like the number of items added to the cart, conversions, or failed transactions. which is nothing but `User activity logs and access patterns`.
+  - **Performance Logs**:(Measure how long processes take and identify slow spots.)
     - Measure response times across different services and endpoints.
     - Identify bottlenecks and long-running processes.
-  - **Security Logs**:
+  - **Security Logs**:(Watch for unauthorized access or suspicious activity.)
     - Monitor for unauthorized access attempts, failed login attempts, and unusual access patterns.
     - Track changes in access privileges and detect potential security breaches.
 
