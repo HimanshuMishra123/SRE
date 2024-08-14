@@ -1,4 +1,4 @@
-Chaos Engineering is a discipline within Site Reliability Engineering (SRE) that involves deliberately injecting failures or disruptive events into a system to test its resilience and reliability. The primary goal is to identify weaknesses and improve the system's ability to withstand unexpected conditions in production environments.
+**Chaos Engineering** is a discipline within Site Reliability Engineering (SRE) that involves deliberately injecting failures or disruptive events into a system to test its resilience and reliability. The primary goal is to identify weaknesses and improve the system's ability to withstand unexpected conditions in production environments.
 
 ### Key Principles of Chaos Engineering:
 
@@ -53,6 +53,9 @@ Chaos Engineering is a discipline within Site Reliability Engineering (SRE) that
 ### Challenges of Chaos Engineering:
 
 - **Risk Management**: Running chaos experiments in production requires careful planning to avoid unintended consequences. It’s crucial to balance the need for experimentation with the risk of causing user-facing issues.
+- **Error Budget Utilization**: When running chaos experiments, teams consider the current state of the error budget. If the error budget is nearly exhausted, it might indicate that the system is already close to its SLO limits, so additional chaos experiments might be postponed or carefully planned.
+      - Monitoring: Continuously monitor the error budget during chaos experiments to ensure that the experiments do not push the system beyond acceptable limits.
+      - Communication: Clearly communicate the state of the error budget to all stakeholders involved in chaos engineering to ensure that everyone understands the potential impact of experiments.
 - **Cultural Adoption**: Chaos Engineering requires a shift in mindset, as it encourages teams to embrace failure as a learning opportunity. This can be challenging in organizations with a low tolerance for risk.
 - **Tooling and Automation**: Implementing chaos engineering effectively often requires specialized tools and automation to run experiments safely and consistently.
 
