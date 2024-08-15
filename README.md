@@ -10,7 +10,7 @@ For ideal monitoring setup(all open source tool) Here's a breakdown for differen
 
 3. **Kubernetes Cluster Monitoring (Prometheus+Grafana):** Prometheus is the go-to tool for Kubernetes cluster monitoring. It’s highly compatible with Kubernetes and provides powerful metrics collection and alerting capabilities.
 
-4. **Network Latency Monitoring (eBPF):** eBPF is an advanced tool for  network latency monitoring, providing granular insights into network latency issues and other performance metrics at various layers (e.g., application, network, etc.). It’s a modern and efficient approach.
+4. **Network Latency Monitoring (eBPF):** eBPF is an advanced tool for  network latency monitoring, providing granular insights into network latency issues and other performance metrics at various layers (e.g., application, network, etc.). It’s a modern and efficient approach.<br/>
     `eBPF-based Tools` (e.g., Cilium, Pixie)<br/>
     **Overview:** eBPF (extended Berkeley Packet Filter) is a powerful technology in the Linux kernel that allows for high-performance monitoring and profiling. Tools like Cilium and Pixie use eBPF to provide deep visibility into network traffic.<br/>
     **Latency Monitoring:** These tools can monitor real-time network latency at the kernel level, offering detailed insights into latency issues at various layers (e.g., application, network, etc.).<br/>
