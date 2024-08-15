@@ -30,7 +30,7 @@ In the SRE (Site Reliability Engineering) community, the most popular eBPF-based
 ### 1. **Pixie**:
    - **Popularity**: Pixie is gaining significant popularity in the SRE community for Kubernetes observability. It provides instant, zero-instrumentation visibility into the performance and behavior of applications and infrastructure.
    - **Features**: 
-     - Automatically collects telemetry data(such as full-body requests, resource and network metrics, application profiles, and more) from Kubernetes clusters using eBPF.
+     - Automatically collects telemetry data(such as full-body requests, resource and network metrics, application profiles, and more) from Kubernetes clusters using eBPF with no additional coding required.
      - Provides real-time data on application performance, resource utilization, and network behavior.
      - No manual instrumentation required, which is a big plus for SREs who want to quickly get insights into their systems.
 
